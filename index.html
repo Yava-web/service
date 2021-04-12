@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="shortcut icon" href="img/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Шиномонтаж</title>
+</head>
+<body>
+    <header>        
+        <div class="container">
+            
+            <div class="row align-items-center" id="menu">
+                
+                <div class="col-3">
+                    <div class="header-menu"></div>
+                    <div class="logo">
+                        <a href="index.html"><img src="img/auto-logo.png" alt="" width="300px"></a>
+                    </div> 
+                </div>
+                <div class="col-9">
+                    <div class="menu">
+                        <ul class="main-menu">
+                            <li><a href="index.html#to_price">Цены</a></li>
+                            <li><a href="index.html#to_features">Преимущества</a></li>
+                            <li><a href="index.html#to_timetable">Расписание</a></li>                            
+                            <li><a href="index.html#to_feedback">Записаться</a></li>
+                            <li><a href="index.html#to_contacts">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu">
+                        <button class="menu-but"><img src="img/menu-icon.png" alt=""></button>
+                        <button class="close-but"><img src="img/close_menu.png" alt=""></button>
+                        <ul>
+                            <li><a href="index.html"><img src="img/auto-logo.png" alt="" width="200px"></a></li>
+                            <li><a href="index.html#to_price">Цены</a></li>
+                            <li><a href="index.html#to_features">Преимущества</a></li>
+                            <li><a href="index.html#to_timetable">Расписание</a></li>                            
+                            <li><a href="index.html#to_feedback">Записаться</a></li>
+                            <li><a href="index.html#to_contacts">Контакты</a></li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+            <div class="header-info">
+                <div class="row">
+                    <div class="col-md-7 col-12">
+                        <div class="description">
+                            <h1><p>Любые виды шиномонтажных работ</p>
+                            <p>Заправка кондиционеров</p>
+                            <p>Ошиповка зимних шин</p>
+                        </h1>                      
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="header-form">
+                            <h2>Записаться сейчас</h2>
+                            <form id="form_one" class="fed-form">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" id="name" name="name">
+                                <label for="tel">Номер телефона:<strong>*</strong></label>
+                                <input type="tel" id="tel" name="tel" required>
+                                <button class="btn btn-header-form" type="submit">Записаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="to-call">Связаться</button>
+        
+    </header>
+    <section class="price" id="to_price">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 description">
+                    <h2>Прайс-лист</h2> 
+                    <p>Предлагаем широкий спектр шиномонтажных работ</p>       
+                </div> 
+            </div>
+            <div class="price-block">
+                <div class="row">
+                    <div class="col-12">                        
+                        <ul class="price-list">
+                            <div class="row">
+                                <div class="col-md-2 col-6">
+                                    <li class="active">
+                                        <img src="img/price/passenger-car.png" alt="">
+                                        <p>Легковые авто</p>
+                                    </li>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <li>
+                                        <img src="img/price/minibus.png" alt="">
+                                        <p>Кроссоверы, внедорожники, микроавтобусы</p>
+                                    </li>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <li>
+                                        <img src="img/price/fix-wheel.png" alt="">
+                                        <p>Ремонт шин</p>
+                                    </li>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <li>
+                                        <img src="img/price/repair.png" alt="">
+                                        <p>Дополнительные работы</p>
+                                    </li>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <li>
+                                        <img src="img/price/wheel-storage.png" alt="">
+                                        <p>Сезонное хранение колес</p>
+                                    </li>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <li>
+                                        <img src="img/price/disk.png" alt="">
+                                        <p>Ремонт / правка дисков</p>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-item shown">                
+                <div class="row">
+                    <div class="col-md-5 col-12">
+                        <img src="img/price/passenger-car.png" alt="" width="100%">
+                    </div>
+
+                    <div class="col-md-7 col-12">
+                        <table class="price-table">
+                            <caption>Легковые авто</caption>
+                            <tr>
+                                <th>Радиус</th>
+                                <th>Цена</th>
+                            </tr>
+                            <tr>
+                                <td>R13 - R14</td>
+                                <td>1200 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R15</td>
+                                <td>1560 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R16</td>
+                                <td>1680 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R17</td>
+                                <td>2040 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R18</td>
+                                <td>2400 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R19</td>
+                                <td>2640 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R20</td>
+                                <td>2880 ₽</td>
+                            </tr> 
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-item">
+                <div class="row">
+                    <div class="col-md-5 col-12">
+                        <img src="img/price/minibus.png" alt="" width="100%">
+                    </div>
+
+                    <div class="col-md-7 col-12">
+                        <table class="price-table">
+                            <caption>Кроссоверы, внедорожники, микроавтобусы</caption>
+                            <tr>
+                                <th>Радиус</th>
+                                <th>Цена</th>
+                            </tr>
+                            <tr>
+                                <td>R15</td>
+                                <td>2160 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R16 - R17</td>
+                                <td>2400 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R18</td>
+                                <td>2640 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R19</td>
+                                <td>2880 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R20</td>
+                                <td>3000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Микроавтобус, Газель (4 колеса), минивен</td>
+                                <td>2400 ₽</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-item">
+                <div class="row">
+                    <div class="col-md-5 col-12">
+                        <img src="img/price/fix-wheel.png" alt="" width="100%">
+                    </div>
+
+                    <div class="col-md-7 col-12">
+                        <table class="price-table">
+                            <caption>Ремонт шин</caption>
+                            <tr>
+                                <th></th>
+                                <th>Цена</th>
+                            </tr>
+                            <tr>
+                                <td>Установка жгута на снятом колесе</td>
+                                <td>200 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>Ремонт прокола UP от</td>
+                                <td>300 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Ремонт пореза от</td>
+                                <td>400 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Установка грибка от</td>
+                                <td>350 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Ремонт камеры</td>
+                                <td>100 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Установка камеры</td>
+                                <td>50 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Горячая вулканизация</td>
+                                <td>300 ₽</td>
+                            </tr> 
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-item">
+                <div class="row">
+                    <div class="col-md-5 col-12">
+                        <img src="img/price/repair.png" alt="" width="100%">
+                    </div>
+
+                    <div class="col-md-7 col-12">
+                        <table class="price-table">
+                            <caption>Дополнительные работы</caption>
+                            <tr>
+                                <th></th>
+                                <th>Цена</th>
+                            </tr>
+                            <tr>
+                                <td>Смазка шпилек и болтов колеса</td>
+                                <td>25 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>Обработка диска герметиком</td>
+                                <td>100 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Установка вентеля</td>
+                                <td>50 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Упаковка колес</td>
+                                <td>25 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Подкачка колес</td>
+                                <td>25 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Чистка колеса от грязи</td>
+                                <td>40 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Прокат домкрата</td>
+                                <td>100 ₽</td>
+                            </tr> 
+                            <tr>
+                                <td>Аргоновая сварка от</td>
+                                <td>500 ₽</td>
+                            </tr> 
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-item">
+                <div class="row">
+                    <div class="col-md-5 col-12">
+                        <img src="img/price/wheel-storage.png" alt="" width="100%">
+                    </div>
+
+                    <div class="col-md-7 col-12">
+                        <table class="price-table">
+                            <caption>Сезонное хранение колес (180 дней)</caption>
+                            
+                            <tr>
+                                <th>Радиус</th>
+                                <th>Цена</th>
+                            </tr>
+                            <tr><td>Шины без дисков:</td><td></td></tr>
+                            <tr>
+                                <td>R13 - R16</td>
+                                <td>1750 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R17 - R19</td>
+                                <td>2000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R20 - R22</td>
+                                <td>2250 ₽</td>
+                            </tr>
+                            <tr><td>Шины на дисках:</td><td></td></tr>
+                            <tr>
+                                <td>R13 - R16</td>
+                                <td>2000 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R17 - R19</td>
+                                <td>2250 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R20 - R22</td>
+                                <td>2500 ₽</td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-item">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <img src="img/price/disk.png" alt="" width="100%">
+                    </div>
+
+                    <div class="col-md-4 col-12">
+                        <table class="price-table">
+                            <caption>Ремонт / правка дисков (<b>цены указаны за 1 диск</b>)</caption>
+                            
+                            <tr>
+                                <th>Радиус</th>
+                                <th>Цена</th>                                
+                            </tr>
+                            <tr><td><b>Стальные диски:</b></td><td></td></tr>
+                            <tr>
+                                <td>R13 - R14</td>
+                                <td>200 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R15</td>
+                                <td>200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R16</td>
+                                <td>200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R17</td>
+                                <td>200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R18</td>
+                                <td>200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R19</td>
+                                <td>200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R20</td>
+                                <td>200 ₽</td>
+                            </tr>                             
+                            <tr><td></td><td></td></tr>
+                            <tr>
+                                <td>R15 Джип</td>
+                                <td>300 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R16 - R17 Джип</td>
+                                <td>300 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R18 Джип</td>
+                                <td>300 ₽</td>
+                            </tr>                            
+                            <tr>
+                                <td>R19 Джип</td>
+                                <td>300 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R20 Джип</td>
+                                <td>300 ₽</td>
+                            </tr>     
+                            <tr><td></td><td></td></tr>
+                            <tr>
+                                <td>Газели, минивены</td>
+                                <td>1500 ₽</td>
+                            </tr>                         
+                        </table>
+                        
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <table class="price-table">
+                            <caption>Ремонт / правка дисков (<b>цены указаны за 1 диск</b>)</caption>
+                            
+                            <tr>
+                                <th>Радиус</th>
+                                <th>Цена</th>                                
+                            </tr>
+                            <tr><td><b>Литые диски:</b></td><td></td></tr>
+                            <tr>
+                                <td>R13 - R14</td>
+                                <td>600 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R15</td>
+                                <td>700 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R16</td>
+                                <td>800 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R17</td>
+                                <td>1000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R18</td>
+                                <td>1100 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R19</td>
+                                <td>1200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R20</td>
+                                <td>1400 ₽</td>
+                            </tr> 
+
+                            <tr><td></td><td></td></tr>
+                            <tr>
+                                <td>R15 Джип</td>
+                                <td>1000 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R16 - R17 Джип</td>
+                                <td>1000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>R18 Джип</td>
+                                <td>1000 ₽</td>
+                            </tr>                            
+                            <tr>
+                                <td>R19 Джип</td>
+                                <td>1000 ₽</td>
+                            </tr>     
+                            <tr>
+                                <td>R20 Джип</td>
+                                <td>1000 ₽</td>
+                            </tr>  
+                            <tr><td></td><td></td></tr>
+                            <tr>
+                                <td>Газели, минивены</td>
+                                <td>1500 ₽</td>
+                            </tr>          
+                        </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="to_features">
+        <div class="container">
+            <div class="description">
+                <h2>Наши Преимущества</h2>
+                <p>С нашим сервисом выгоднее всего!</p>
+            </div>
+            <div class="features-block">
+                <div class="row">
+                    <div class="col-12">
+                        <ul>
+                            <div class="row">
+                                <div class="col-md-4 col-12">
+                                    <li>
+                                        <img src="img/features/car_service_one.png" alt="">
+                                        <h3>Высокое качество работы</h3>
+                                        <p>У нас работают лучшие специалисты на высокоточном профессиональном оборудовании</p>
+                                    </li>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <li>
+                                        <img src="img/features/car_service_two.png" alt="">
+                                        <h3>Контрольный осмотр</h3>
+                                        <p>После любых работ обязательно проводится контрольный осмотр</p>
+                                    </li>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <li>
+                                        <img src="img/features/car_service_three.png" alt="">
+                                        <h3>Низкие цены</h3>
+                                        <p>Наши скидки и предложения вас приятно удивят</p>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timetable" id="to_timetable">
+        <div class="container">
+            <div class="description">
+                <h2>Расписание работы сервиса</h2>
+                <p>Внимание! Время работы в праздничные дни может отличаться от представленного</p>
+            </div>
+            <div class="work-time">
+                <table class="timetable-list">
+                    <tr>
+                        <td></td>
+                        <td>Понедельник</td>
+                        <td>Вторник</td>   
+                        <td>Среда</td>   
+                        <td>Четверг</td>   
+                        <td>Пятница</td>   
+                        <td>Суббота</td>   
+                        <td>Воскресенье</td>
+                    </tr>
+                    <tr>
+                        <td>Время работы</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                    </tr>                
+                </table>
+
+                <table class="timetable-list mobile-list">
+                    <tr>
+                        <td></td>
+                        <td>Понедельник-пятница</td>                          
+                        <td>Суббота</td>   
+                        <td>Воскресенье</td>
+                    </tr>
+                    <tr>
+                        <td>Время работы</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                        <td>9:00 - 21:00</td>
+                    </tr>                
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="feedback" id="to_feedback">
+        <div class="container">
+            <h3>Запишитесь на шиномонтаж сейчас и получите <strong>скидку!</strong></h3>
+            <div class="row">
+
+            <div class="col-md-6 col-12">
+            <form class="fed-form" id="form_two">
+                <div class="form-item">
+                    <label for="fed-name">Ваше имя:</label>
+                    <input type="text" name="name" id="fed-name" placeholder="Имя">
+                </div>
+                <div class="clearfix">
+                    <div class="form-item form-tel">
+                        <label for="fed-tel">Телефон:<strong>*</strong></label>
+                        <input type="tel" name="tel" id="fed-tel" placeholder="+7 XXX XXX XX XX" required>
+                    </div>
+
+                    <div class="form-item form-email">
+                        <label for="fed-email">Электронная почта:</label>
+                        <input type="email" name="email" id="fed-email" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="form-item form-date">
+                    <label for="fed-date">Дата записи:</label>
+                    <input type="date" name="date" id="fed-date" min="2020-12-01" max="2021-12-31">
+                </div>
+                <button type="submit">Записаться</button>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="img-box">
+                <img src="img/phone.png" alt="">
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="contacts" id="to_contacts">
+        <div class="container">
+            <div class="description">
+                <h2>Контакты и адреса</h2>
+                <p>Мы всегда рядом :)</p>
+            </div> 
+
+            <div class="contacts-list">
+                <div class="row">
+                    
+                    <div class="col-md-4 col-12">
+                        <div class="our-contacts">                            
+                            <h3>Наш адрес:</h3>
+                            <p class="addres">г. Санкт Петербург,<br> 3-й Верхний переулок, 2</p>
+                            <p><a class="tel" href="tel: 89500414670"> 8(950)041-46-70</a></p>
+                            <p><a class="tel" href="tel: 89811030424"> 8(981)103-04-24</a></p>
+                            <h3>Вы можете связаться с нами в социальных сетях:</h3>
+                            <p><a href="https://vk.com/lllunka"><img src="img/vk_icon.png" alt="">Вконтакте</a></p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-md-8 col-12">
+                        <div class="map">
+                            <h3>Как нас найти ?</h3>
+                            <div class="map-block">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A347767a365d980636dd75d097e655bf0cf1628b422b2e0c5f769269dabf6029a&amp;width=100%&amp;height=582&amp;lang=ru_RU&amp;scroll=false"></script>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="top">
+            <div class="row">
+                <div class="col-3">
+                    <div class="header-menu"></div>
+                    <div class="logo">
+                        <a href="index.html"><img src="img/auto-logo-light.png" alt="" width="300px"></a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+            <div class="bottom">
+                <div class="row">
+                    <div class="col-12">
+                        <p>ООО "КДМ" © 2004-2020. Сайт носит информационный характер и не является публичной офертой</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="dark-bg"></div>
+    <button class="up-button" type="button" title="Наверх"></button>
+    <div class="modal-order"> 
+        <h2>Заявка отправлена!</h2>
+        <p>Ваши данные отправлены. Мы свяжемся с Вами в ближайшее время.</p>
+        <a href="index.html#to_contacts"><button >Контакты</button></a>
+        <button id="modal_btn_close">Закрыть</button>
+    </div>
+
+    <div class="modal-call">
+        <h2>Свяжитесь с нами!</h2>
+        <p>Вы можете написать или позвонить нам</p>
+        <p>Телефон: <a href="tel: 89500414670">8(950)041-46-70</a></p>
+        <p>Телефон: <a href="tel: 89811030424">8(981)103-04-24</a></p>        
+        <p>Вконтакте: <a href="#"><img src="img/vk_icon.png" alt="" width="50px"></a></p>
+        <a href="index.html#to_contacts"><button class="close-call">Контакты</button></a>
+        <button class="close-call">Закрыть</button>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script src="JS/to_call.js"></script>
+    <script src="JS/ajax_form.js"></script>
+    <script src="JS/price_list.js"></script>
+    <script src="JS/fixed_menu.js"></script>
+    <script src="JS/mob_menu.js"></script>
+</body>
+</html>
